@@ -1,7 +1,7 @@
 from rich.console import Console
 from rich.table import Table
 
-from ..models.task import Task
+from ...models.task import Task
 
 
 def render_tasks(tasks: list[Task], console: Console):

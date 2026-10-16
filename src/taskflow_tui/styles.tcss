@@ -1,0 +1,123 @@
+
+/* Header and page sections */
+#section-title {
+    margin: 1 2 0 2;
+    text-style: bold;
+    height: 2;
+}
+
+#status {
+    margin: 0 2 1 2;
+    height: 1;
+}
+
+/* Metric cards */
+
+#metrics {
+    height: 7;
+    margin: 0 2 1 2;
+    scrollbar-size-horizontal: 0;
+}
+
+TaskMetricsCard {
+    width: 1fr;
+    min-width: 22;
+    height: 6;
+    margin-right: 1;
+    padding: 1 2;
+    border: round #344b3b;
+}
+
+TaskMetricsCard.total {
+    border: round #528564;
+}
+
+TaskMetricsCard.active {
+    border: round #415d4a;
+}
+
+TaskMetricsCard.completed {
+    border: round #344b3b;
+}
+
+.metric-title {
+    height: 1;
+}
+
+.metric-value {
+    text-style: bold;
+    height: 2;
+}
+
+/* Task list */
+
+#tasks-heading {
+    margin: 0 2 1 2;
+    text-style: bold;
+    height: 1;
+}
+
+#content {
+    height: 1fr;
+    margin: 0 2;
+    padding: 0 0 1 0;
+}
+
+TaskItem {
+    height: 4;
+    margin-bottom: 1;
+    padding: 0 1;
+    border: round #2c3930;
+}
+
+TaskItem:hover {
+    border: round #62896a;
+}
+
+.task-row {
+    height: 1fr;
+    width: 100%;
+    align: left middle;
+}
+
+.task-id {
+    width: 8;
+}
+
+.task-title {
+    width: 1fr;
+    text-style: bold;
+}
+
+.task-description {
+    width: 2fr;
+}
+
+.priority {
+    width: 12;
+    text-align: center;
+    text-style: bold;
+}
+
+.priority-high {
+    color: #f08b82;
+}
+
+.priority-medium {
+    color: #e6c77d;
+}
+
+.priority-low {
+    color: #83c99a;
+}
+
+.empty-state {
+    padding: 2;
+    border: round #2c3930;
+}
+
+
+Button {
+    width: 1fr;
+    margin: 1;
+}

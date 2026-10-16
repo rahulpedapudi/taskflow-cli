@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 from rich.console import Console
 from typer import Typer
 
-from taskflow_cli.models.task import PriorityType, Task
+from ...models.task import PriorityType, Task
 
 app = Typer()
 
